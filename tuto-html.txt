@@ -1,0 +1,30 @@
+-créer le répertoire et le lier au git
+créer un répertoire dans votre explorateur windows
+aller sur GitHub, créer un New Repo
+2 solutions pour link GitHub avec son vscode :
+	copy link du repo pour clone
+	copy paste le bloc de ligne de commande dans le terminal vscode
+vérifier votre repo github
+
+-créer le html
+créer un fichier index.html
+taper html et choisir le :5 et autocompletion
+
+-créer le style
+créer un fichier style.css
+dans le index.html, avant la balise fermante du head, taper link choisir le :css et autocompletion
+
+-créer le json
+créer un fichier index.json
+dans le index.html, avant la balise fermante du body, taper script et choisir le :src et autocompletion, taper le "./nom du index.js" entre les quotes
+rajouter un alert("test") dans le index.js pour tester
+rajouter un console.log("test2"); pour tester la console
+
+
+
+-pour versionner sur git
+Versionner votre travail après avoir coder la structure (html:5 pour l'autocomplétion) et rajouter les liens avec votre fichier style.css + index.js :
+git add nom_fichier ou git add . (tout)
+git commit -m "description de votre code que vous pushez"
+git push origin main
+
